@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
+using UnityEngine.EventSystems;
 public class CarManager : MonoBehaviour
 {
     public GameObject indicator;
@@ -24,6 +25,12 @@ public class CarManager : MonoBehaviour
     void Update()
     {
         DetectGround();
+
+        // 만일 현재 터치한 오브젝트가 오브젝트라면 리턴
+        if (EventSystem.current.currentSelectedGameObject)
+        {
+            return;
+        }
         
         // if indicator active true and touch?
         if (indicator.activeInHierarchy && Input.touchCount > 0)

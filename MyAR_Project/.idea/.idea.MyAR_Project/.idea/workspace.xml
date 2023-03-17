@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="494bdf28-4688-4eb9-bce0-f4f8ef5b157d" name="Changes" comment="" />
+    <list default="true" id="494bdf28-4688-4eb9-bce0-f4f8ef5b157d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyAR_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyAR_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials/Police Car Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials/Police Car Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes/Police Car v1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes/Police Car v1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -18,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\82105\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\82105\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\82105\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\82105\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\82105\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\82105\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe" />
@@ -81,6 +97,9 @@
       <option name="presentableId" value="Default" />
       <updated>1678867454240</updated>
       <workItem from="1678867458936" duration="2878000" />
+      <workItem from="1679038499530" duration="504000" />
+      <workItem from="1679039461773" duration="1382000" />
+      <workItem from="1679042644978" duration="601000" />
     </task>
     <servers />
   </component>
