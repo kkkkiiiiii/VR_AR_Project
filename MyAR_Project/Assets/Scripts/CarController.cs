@@ -6,6 +6,7 @@ public class CarController : MonoBehaviour
 {
     public GameObject[] bodyObject;
     public Color32[] colors;
+    public float rotSpeed = 0.1f;
 
     private Material[] _carMats;
     
@@ -34,7 +35,7 @@ public class CarController : MonoBehaviour
             // 터치 상태가 moved라면?
             if (touch.phase == TouchPhase.Moved)
             {
-                // 카메라에서 정면으로 레이를 발사해 부딪힌 대상이 8번레이어라면?
+                // 카메라에서 정면으로 레이를 발사해 부딪힌 대상이 6번레이어라면?
                 Ray ray = new Ray(Camera.main.transform.position,
                     Camera.main.transform.forward);
                 RaycastHit hitInfo;
@@ -42,6 +43,9 @@ public class CarController : MonoBehaviour
                 if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, 1<<6))
                 {
                     Vector3 deltaPos = touch.deltaPosition;
+                    
+                    // 직전 프레임에서 현재 프레임까지의 X축 터치 이동량에 비례해 로컬 Y축 방향으로 회전시킨다.
+                    transform.Rotate(transform.up, deltaPos.x * -1.0f * rotSpeed);
                 }
             }
         }

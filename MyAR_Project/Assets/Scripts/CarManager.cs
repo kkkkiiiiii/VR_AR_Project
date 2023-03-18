@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
+
 public class CarManager : MonoBehaviour
 {
     public GameObject indicator;
     public GameObject car;
+    public float relocationDistance = 1.0f;
     
     private ARRaycastManager _arManager;
     private GameObject _placedGameObject;
@@ -45,8 +48,13 @@ public class CarManager : MonoBehaviour
                 }
                 else
                 {
-                    _placedGameObject.transform.SetPositionAndRotation(indicator.transform.position, 
-                        indicator.transform.rotation);
+                    // 만일 생성된 오브젝트와 인디케이터 사이의 거리가
+                    // 최소 이동 범위 이상이라면
+                    if (Vector3.Distance(_placedGameObject.transform.position, indicator.transform.position) > relocationDistance)
+                    {
+                        _placedGameObject.transform.SetPositionAndRotation(indicator.transform.position, 
+                            indicator.transform.rotation);
+                    }
                 }
             }
         }
