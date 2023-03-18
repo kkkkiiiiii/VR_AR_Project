@@ -3,28 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="494bdf28-4688-4eb9-bce0-f4f8ef5b157d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyAR_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyAR_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials/Police Car Material 1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Materials/Police Car Material 1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes/Police Car v1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Meshes/Police Car v1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Low Poly Police Car Pack/Prefabs/Cars v1/Police Car v1 1 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CarManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CarManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arcore@4.2.7/Editor/Gradle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arcore@4.2.7/Editor/Java.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -60,7 +47,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.18f1-x86_64\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\VRAR\VR_AR_Project\MyAR_Project -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\VRAR\VR_AR_Project\MyAR_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -100,14 +87,27 @@
       <workItem from="1679038499530" duration="504000" />
       <workItem from="1679039461773" duration="1382000" />
       <workItem from="1679042644978" duration="601000" />
+      <workItem from="1679123798303" duration="100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
