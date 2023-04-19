@@ -5,12 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/CarScene.unity
-    guid: b93cc13b77b1c964790de923479685f8
   - enabled: 1
     path: Assets/Scenes/TrackingScene.unity
     guid: bb67cb1f22e04f14287a0b7ca779ffaf
+  - enabled: 0
+    path: Assets/Scenes/CarScene.unity
+    guid: b93cc13b77b1c964790de923479685f8
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 38a7442ba7485844c87e61aa41ea1555, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 55892112198c646499b0fede75ce2317, type: 2}
